@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>UIKIT SLIDEFORM</title>
+        <meta name="description" content="UIKIT Multistep form made from slideshow and form components">
+        <meta name="keywords" content="uikit, slide, form, slideform,">
+        <meta name="author" content="https://nikolajanke.online/">
+        <meta name="robots" content="all">
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+        <link href="resources/css/uikit.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div uk-slideshow="ratio : false;">
+
+            <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1">
+                <form class="uk-form-horizontal">
+                <ul class="uk-slideshow-items" uk-height-viewport="min-height: 100vh">
+                    <li>
+                        <img class="uk-background-muted" uk-cover>
+                        <div class="uk-position-center uk-padding">
+                            <div class="uk-margin">
+                                <label class="uk-form-label" for="form-ime">Ime</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input uk-form-width-large" id="form-ime" type="text" placeholder="Ime...">
+                                </div>
+                            </div>
+                        </div>                        
+                    </li>
+                    <li>
+                        <img class="uk-background-muted" uk-cover>
+                        <div class="uk-position-center uk-padding">
+                            <div class="uk-margin">
+                                <label class="uk-form-label" for="form-ime">Ime</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input uk-form-width-large" id="form-ime" type="text" placeholder="Ime...">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="uk-background-muted" uk-cover>
+                        <div class="uk-position-center uk-padding">
+                            <div class="uk-margin">
+                                <label class="uk-form-label" for="form-ime">Ime</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input uk-form-width-large" id="form-ime" type="text" placeholder="Ime...">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+                <a class="uk-position-bottom-left uk-position-small" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-bottom-right uk-position-small" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-center uk-position-small uk-flex-center uk-margin"></ul>
+            </div>
+        
+            
+        
+        </div>
+        <script src="resources/js/uikit.min.js"></script>
+        <script src="resources/js/uikit-icons.min.js"></script>
+    </body>
+</html>
